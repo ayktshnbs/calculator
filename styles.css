@@ -1,10 +1,12 @@
 body {
+    width: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
+    
 }
 #calculator {
     font-family: Arial, sans-serif;
@@ -13,14 +15,24 @@ body {
     max-width: 500px;
     overflow: hidden;
 }
+#display-container {
+    width: 100%;
+    padding: 20px;
+    background-color: hsl(233, 19%, 17%);
+    overflow: hidden;
+    border: none;
+}
 #display {
     width: 100%;
     padding: 20px;
     font-size: 5rem;
     color: rgba(255, 255, 255, 0.61);
     text-align: left;
-    border: none;
+    border-radius: 30px;
     background-color: hsl(233, 19%, 17%);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 #keys {
