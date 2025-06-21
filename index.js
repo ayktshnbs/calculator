@@ -1,4 +1,5 @@
 const display = document.getElementById('display');
+
 function resizeDisplayFont() {
     const maxFontSize = 80; 
     const minFontSize = 20;
